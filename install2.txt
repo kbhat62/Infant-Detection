@@ -1,0 +1,64 @@
+    2  sudo su
+    4  sudo su
+    5  sudo apt-get update
+    6  sudo raspi-config
+    7  sudo su
+    8  sudo apt-get update
+    9  sudo su
+   11  sudo nano /etc/network/interfaces
+   12  sudo nano /etc/apt/apt.conf.d/10proxy
+   13  sudo nano /etc/profile
+   15  sudo init 6
+   17  sudo apt-get install --reinstall iputils-ping
+   20  sudo reboot
+   21  sudo apt-get update
+   22  sudo init 0
+   24  sudo su
+   25  sudo apt-get update
+   26  sudo apt-get install python-picamera
+   27  sudo apt-get upgrade
+   31  sudo idle &
+   36  sudo raspi-config
+   45  sudo date --set "26 apr 2016 18:17:00"
+   46  sudo apt-get install fswebcam
+   49  sudo date --set "02 may 2016 10:04:00"
+   50  sudo apt-get update && sudo apt-get install wolfram-engine
+   52  sudo su
+   53  sudo su
+   62  sudo date -s '20 May 17:08:00'
+   63  sudo date -s '20 May 17:08:00 2016'
+   64  sudo date -s '20 May 2016'
+   68  sudo date -s '20 May 2016 17:09:00'
+   77  sudo python setup.py install
+   78  sudo apt-get install cython
+   79  sudo python setup.py install
+   80  sudo apt-get install --upgrade_only cython2.3
+   81  sudo apt-get install --only_upgrade cython2.3
+   82  sudo apt-get install --upgrade-only cython2.3
+   83  sudo apt-get install --only-upgrade cython2.3
+   84  sudo pip install cython
+   85  sudo pip install --upgrade cython==2.4
+   86  sudo pip install --upgrade cython==2.3
+   87  sudo pip install --upgrade cython
+   89  sudo python setup.py install
+   91  SUDO pip install scikit-image
+   92  sudo pip install scikit-image
+   93  sudo pip install --upgrade Cython --install-option="--no-cython-compile"
+   96  sudo apt-get install python-skimage
+   98  sudo pip install -U scikit-learn
+  100  sudo less /root/.pip/pip.log
+  102  sudo pip install -U scikit-learn
+  106  sudo apt-get install geany
+  107  sudo pip install -U scikit-learn
+  108  sudo apt-get install firefox
+  109  sudo apt-get install chromium-browser
+  110  sudo apt-get install update
+  111  sudo apt-get update
+  112  sudo apt-get install chromium-browser
+  116  sudo python setup.py install
+  117  sudo pip install imutils
+  121  sudo python setup.py install
+  149  history|grep -i sudo
+  150  history|grep -i "sudo|pip"
+  151  history|grep -i "sudo" > install1.txt
+  153  history|grep -i "sudo" > install2.txt

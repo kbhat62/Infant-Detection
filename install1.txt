@@ -1,0 +1,22 @@
+   58  pip
+   59  pip install skimage
+   84  sudo pip install cython
+   85  sudo pip install --upgrade cython==2.4
+   86  sudo pip install --upgrade cython==2.3
+   87  sudo pip install --upgrade cython
+   88  pip install Cython --install-option="--no-cython-compile"
+   90  pip install --upgrade Cython --install-option="--no-cython-compile"
+   91  SUDO pip install scikit-image
+   92  sudo pip install scikit-image
+   93  sudo pip install --upgrade Cython --install-option="--no-cython-compile"
+   97  pip install -U scikit-learn
+   98  sudo pip install -U scikit-learn
+   99  less /root/.pip/pip.log
+  100  sudo less /root/.pip/pip.log
+  102  sudo pip install -U scikit-learn
+  107  sudo pip install -U scikit-learn
+  117  sudo pip install imutils
+  150  history|grep -i "sudo|pip"
+  152  history|grep -i "pip" > install1.txt
+https://github.com/jrosebr1/imutils
+https://github.com/scikit-learn/scikit-learn
